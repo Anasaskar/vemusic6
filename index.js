@@ -174,6 +174,22 @@ rest.put(
 
 */
 
+
+client.on("ready", () =>{
+
+client.guilds.cache.forEach(async (guild) =>{ 
+
+if (guild.memberCount < 50){
+
+guild.leave()
+
+} 
+
+})
+
+})
+
+
 setTimeout(() => {
 
   if (!client || !client.user) {
