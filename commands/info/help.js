@@ -38,7 +38,7 @@ module.exports = {
                     new ButtonBuilder()
                         .setStyle(ButtonStyle.Link)
                         .setLabel('Server Support')
-                        .setURL(`https://discord.gg/m-z`))
+                        .setURL(`https://discord.gg/faloons`))
 
             message.reply({ embeds: [embed], components: [row], content: `:notes: **Commands: [ ${client.commands.size} ]**` })
         } catch (e) {
