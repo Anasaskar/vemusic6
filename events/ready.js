@@ -14,7 +14,7 @@ module.exports = {
       .reduce((a, b) => a + b.memberCount, 0)
       .toLocaleString()}`).yellow, (`Commands: ${client.commands.size}`).green);
     client.user.setStatus("online")
-    client.user.setActivity(`${prefix}help | SlashCommand`, { type: ActivityType.Listening })
+    client.user.setActivity(`Let it Die . | ${prefix}play`, { type: ActivityType.Listening })
     
     setInterval(async () => {
       client.guilds.cache.forEach(async g => {
