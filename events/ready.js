@@ -1,7 +1,7 @@
 const { ActivityType } = require('discord.js');
 const Discord = require('discord.js');
 const db = require('quick.db');
-const { prefix } = process.env.token;
+const { prefix } = require('../config.json');
 const { joinVoiceChannel } = require('@discordjs/voice');
 const player = require("../client/player");
 
