@@ -1,7 +1,7 @@
 {
-    "prefix": "+",
-    "prefixalt": "?",
+    "prefix": null,
+    "prefixalt": null,
     "token": null,
-    "clientID": "997699458919833691",
-    "guildID": "1029271928466329661"
+    "clientID": null,
+    "guildID": null
 }
