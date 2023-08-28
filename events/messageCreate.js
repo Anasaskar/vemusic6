@@ -1,4 +1,4 @@
-const { prefix, prefixalt } = process.env.prefix;
+const { prefix, prefixalt } = require('../config.json');
 const { Collection } = require('discord.js');
 const delay = new Collection();
 const db = require('quick.db');
