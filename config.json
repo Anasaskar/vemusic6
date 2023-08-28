@@ -1,1 +1,7 @@
-{}
+{
+  "prefix": "${process.env.prefix}",
+  "prefixalt": "${process.env.prefixalt}",
+  "token": "${process.env.token}",
+  "clientID": "${process.env.clientID}",
+  "guildID": "${process.env.guildID}"
+}
